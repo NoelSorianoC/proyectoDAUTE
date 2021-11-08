@@ -18,21 +18,19 @@
 
         />
 
-
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btn2"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="20dp"
-        android:layout_wight="match_parent"
         android:paddingLeft="20dp"
         android:textColor="#DD7CFF0A"
         android:text="AGREGAR" />
 
+
     <Button
         android:id="@+id/button2"
-        android:layout_wight="match_parent"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
@@ -43,7 +41,6 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_wight="match_parent"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
@@ -58,8 +55,9 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="20dp"
-        android:layout_wight="match_parent"
         android:paddingLeft="20dp"
         android:textColor="#DD7CFF0A"
         android:text="BORRAR" />
 </LinearLayout>
+
+
