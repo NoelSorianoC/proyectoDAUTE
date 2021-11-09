@@ -5,27 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#A48CCF">
+    tools:context=".ui.gallery.GalleryFragment">
 
     <TextView
         android:id="@+id/tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PRODUCTOS"
-        android:fontFamily="cursive"
-        android:textSize="50sp"
+        android:text="Categorias de Productos"
+        android:textSize="28sp"
         android:layout_gravity="center"
-
         />
 
     <Button
-        android:id="@+id/btn2"
+        android:id="@+id/button1"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="20dp"
         android:paddingLeft="20dp"
-        android:textColor="#DD7CFF0A"
         android:text="AGREGAR" />
 
 
@@ -36,7 +33,6 @@
         android:layout_marginLeft="25dp"
         android:layout_marginTop="20dp"
         android:paddingLeft="20dp"
-        android:textColor="#DD7CFF0A"
         android:text="EDITAR" />
 
     <Button
@@ -46,8 +42,7 @@
         android:layout_marginLeft="25dp"
         android:layout_marginTop="20dp"
         android:paddingLeft="20dp"
-        android:textColor="#DD7CFF0A"
-        android:text="MOSTRAR" />
+        android:text="LISTAR" />
 
     <Button
         android:id="@+id/button4"
@@ -56,8 +51,8 @@
         android:layout_marginLeft="25dp"
         android:layout_marginTop="20dp"
         android:paddingLeft="20dp"
-        android:textColor="#DD7CFF0A"
         android:text="BORRAR" />
+
+
+
 </LinearLayout>
-
-

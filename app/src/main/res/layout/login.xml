@@ -15,7 +15,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:gravity="center"
             android:background="#7FD8D0">
 
             <ImageView
@@ -65,7 +64,6 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="64dp"
-                android:enabled="false"
                 android:textSize="13dp"
                 android:text="registrarse"
                 app:layout_constraintBottom_toBottomOf="parent"

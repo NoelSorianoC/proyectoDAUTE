@@ -5,25 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#7FD8D0">
-
+    tools:context=".ui.slideshow.SlideshowFragment">
 
     <TextView
-        android:id="@+id/tv1"
+        android:id="@+id/tvprod"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Categorias de Productos"
-        android:textSize="28sp"
+        android:text="PRODUCTOS"
+        android:fontFamily="cursive"
+        android:textSize="50sp"
         android:layout_gravity="center"
+
         />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btn2"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="20dp"
         android:paddingLeft="20dp"
+        android:textColor="#DD7CFF0A"
         android:text="AGREGAR" />
 
 
@@ -34,6 +36,7 @@
         android:layout_marginLeft="25dp"
         android:layout_marginTop="20dp"
         android:paddingLeft="20dp"
+        android:textColor="#DD7CFF0A"
         android:text="EDITAR" />
 
     <Button
@@ -43,7 +46,8 @@
         android:layout_marginLeft="25dp"
         android:layout_marginTop="20dp"
         android:paddingLeft="20dp"
-        android:text="LISTAR" />
+        android:textColor="#DD7CFF0A"
+        android:text="MOSTRAR" />
 
     <Button
         android:id="@+id/button4"
@@ -52,7 +56,7 @@
         android:layout_marginLeft="25dp"
         android:layout_marginTop="20dp"
         android:paddingLeft="20dp"
+        android:textColor="#DD7CFF0A"
         android:text="BORRAR" />
-
 
 </LinearLayout>
