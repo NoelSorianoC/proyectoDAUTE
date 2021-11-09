@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7FD8D0"
+    tools:context=".agregarProd">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AGREGAR NUEVO PRODUCTO"
+        android:gravity="center"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/idprod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Codigo del producto"
+        android:gravity="center"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/nomProd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nombre del producto"
+        android:gravity="center"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/preci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Precio del producto"
+        android:gravity="center"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/stock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="STOCK  del producto"
+        android:gravity="center"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/categ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Categoria del producto"
+        android:gravity="center"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="agregar producto"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>

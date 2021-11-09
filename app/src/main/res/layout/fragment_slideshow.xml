@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#7FD8D0"
     tools:context=".ui.slideshow.SlideshowFragment">
 
     <TextView
@@ -13,6 +14,7 @@
         android:layout_height="wrap_content"
         android:text="PRODUCTOS"
         android:fontFamily="cursive"
+        android:textStyle="bold"
         android:textSize="50sp"
         android:layout_gravity="center"
 
