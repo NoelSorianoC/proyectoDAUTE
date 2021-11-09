@@ -9,6 +9,15 @@
     tools:context=".agregarProd">
 
 
+    <ImageView
+        android:id="@+id/volver"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/volver"/>
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"

@@ -21,7 +21,7 @@
         />
 
     <Button
-        android:id="@+id/btn2"
+        android:id="@+id/agg"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
@@ -32,7 +32,7 @@
 
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/editar"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
