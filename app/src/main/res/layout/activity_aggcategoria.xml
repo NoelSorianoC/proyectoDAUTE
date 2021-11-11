@@ -30,30 +30,37 @@
 
   <EditText
       android:id="@+id/nom_cat"
-      android:layout_width="match_parent"
+      android:layout_width="350dp"
       android:layout_height="wrap_content"
       android:ems="10"
+      android:drawableLeft="@drawable/ic_view"
+      android:drawablePadding="25dp"
       android:inputType="textPersonName"
+      android:layout_gravity="center"
       android:hint="Nombre de la categoria"
       android:gravity="center"
       android:layout_marginTop="12dp"/>
 
   <EditText
       android:id="@+id/cod_cat"
-      android:layout_width="match_parent"
+      android:layout_width="350dp"
       android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="12dp"
+      android:drawableLeft="@drawable/ic_code"
       android:ems="10"
-      android:inputType="textPersonName"
-      android:hint="Codigo de la categoria"
       android:gravity="center"
-      android:layout_marginTop="12dp"/>
+      android:hint="Codigo de la categoria"
+      android:inputType="textPersonName" />
 
   <EditText
       android:id="@+id/des_cat"
-      android:layout_width="match_parent"
+      android:layout_width="350dp"
       android:layout_height="wrap_content"
       android:ems="10"
+      android:drawableLeft="@drawable/ic_description"
       android:inputType="textPersonName"
+      android:layout_gravity="center"
       android:hint="Descripcion de la categoria"
       android:gravity="center"
       android:layout_marginTop="12dp"/>
