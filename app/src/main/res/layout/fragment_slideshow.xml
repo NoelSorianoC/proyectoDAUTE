@@ -20,6 +20,14 @@
 
         />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/productos" />
+
     <Button
         android:id="@+id/agg"
         android:layout_width="350dp"
