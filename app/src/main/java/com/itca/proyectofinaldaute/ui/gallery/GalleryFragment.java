@@ -1,9 +1,11 @@
 package com.itca.proyectofinaldaute.ui.gallery;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -13,13 +15,15 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.itca.proyectofinaldaute.R;
+import com.itca.proyectofinaldaute.aggcategoria;
+import com.itca.proyectofinaldaute.agregarProd;
 import com.itca.proyectofinaldaute.databinding.FragmentGalleryBinding;
 
 public class GalleryFragment extends Fragment {
 
     private GalleryViewModel galleryViewModel;
     private FragmentGalleryBinding binding;
-
+    private Button agcat;
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         galleryViewModel =
@@ -27,6 +31,16 @@ public class GalleryFragment extends Fragment {
 
         binding = FragmentGalleryBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
+
+        agcat = root.findViewById(R.id.agcat);
+        agcat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent agcat = new Intent(getContext(), aggcategoria.class);
+                startActivity(agcat);
+            }
+        });
+
 
         final TextView textView = binding.tv1;
         galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
