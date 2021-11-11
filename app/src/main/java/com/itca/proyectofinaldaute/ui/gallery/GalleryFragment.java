@@ -19,12 +19,13 @@ import com.itca.proyectofinaldaute.aggcategoria;
 import com.itca.proyectofinaldaute.agregarProd;
 import com.itca.proyectofinaldaute.databinding.FragmentGalleryBinding;
 import com.itca.proyectofinaldaute.editcat;
+import com.itca.proyectofinaldaute.listar_cat;
 
 public class GalleryFragment extends Fragment {
 
     private GalleryViewModel galleryViewModel;
     private FragmentGalleryBinding binding;
-    private Button agcat, editar;
+    private Button agcat, editar,listar ;
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         galleryViewModel =
@@ -34,7 +35,8 @@ public class GalleryFragment extends Fragment {
         View root = binding.getRoot();
 
         agcat = root.findViewById(R.id.agcat);
-        editar = root.findViewById(R.id.button2);
+        editar = root.findViewById(R.id.editar);
+        listar = root.findViewById(R.id.listar);
         agcat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -47,6 +49,14 @@ public class GalleryFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent agcat = new Intent(getContext(), editcat.class);
+                startActivity(agcat);
+            }
+        });
+
+        listar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent agcat = new Intent(getContext(), listar_cat.class);
                 startActivity(agcat);
             }
         });

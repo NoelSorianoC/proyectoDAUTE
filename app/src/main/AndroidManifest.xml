@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoFinalDAUTE">
         <activity
+            android:name=".listar_cat"
+            android:exported="false" />
+        <activity
             android:name=".editcat"
             android:exported="false" />
         <activity
@@ -25,7 +28,7 @@
             android:theme="@style/Theme.ProyectoFinalDAUTE.NoActionBar" />
         <activity
             android:name=".login"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
