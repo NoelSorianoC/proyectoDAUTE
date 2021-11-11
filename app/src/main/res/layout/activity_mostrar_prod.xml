@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".listar_cat">
+    tools:context=".mostrar_prod">
+
 
     <ImageView
         android:id="@+id/volver"
@@ -26,19 +27,12 @@
         android:textSize="23dp"
         android:textColor="@color/black"
         android:background="#4DD3DF"
-        android:text="Listar Categoria de Productos" />
+        android:text="Listar Productos" />
 
     <ListView
-        android:id="@+id/list1"
+        android:id="@+id/list2"
         android:layout_width="wrap_content"
         android:layout_height="match_parent">
     </ListView>
+
 </LinearLayout>
-
-
-
-
-
-
-
-

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoFinalDAUTE">
         <activity
+            android:name=".mostrar_prod"
+            android:exported="false" />
+        <activity
             android:name=".edit_prod"
             android:exported="false" />
         <activity
