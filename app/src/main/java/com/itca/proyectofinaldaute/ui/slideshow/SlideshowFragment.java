@@ -17,12 +17,13 @@ import androidx.lifecycle.ViewModelProvider;
 import com.itca.proyectofinaldaute.R;
 import com.itca.proyectofinaldaute.agregarProd;
 import com.itca.proyectofinaldaute.databinding.FragmentSlideshowBinding;
+import com.itca.proyectofinaldaute.edit_prod;
 
 public class SlideshowFragment extends Fragment {
 
     private SlideshowViewModel slideshowViewModel;
     private FragmentSlideshowBinding binding;
-private Button agg;
+private Button agg, editar;
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         slideshowViewModel =
@@ -37,6 +38,16 @@ private Button agg;
             public void onClick(View view) {
                 Intent agg = new Intent(getContext(), agregarProd.class);
                 startActivity(agg);
+            }
+        });
+
+
+        editar = root.findViewById(R.id.editar);
+        editar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent edit = new Intent(getContext(), edit_prod.class);
+                startActivity(edit);
             }
         });
 

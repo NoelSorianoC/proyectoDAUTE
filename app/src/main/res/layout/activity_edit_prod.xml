@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".editcat">
+    tools:context=".edit_prod">
 
     <ImageView
         android:id="@+id/volver"
@@ -24,10 +24,10 @@
         android:ems="10"
         android:gravity="center"
         android:inputType="textPersonName"
-        android:hint="buscar id de categoria" />
+        android:hint="buscar id de producto" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnbuscar"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
@@ -36,54 +36,53 @@
         android:text="Buscar" />
 
     <EditText
-        android:id="@+id/nom_cat"
+        android:id="@+id/nom_prod"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:gravity="center"
         android:inputType="textPersonName"
-        android:hint="nombre de la categoria" />
+        android:hint="nombre del producto" />
 
     <EditText
-        android:id="@+id/cod_cat"
+        android:id="@+id/cod_prod"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:gravity="center"
         android:inputType="textPersonName"
-        android:hint="id de la categoria" />
+        android:hint="id del producto" />
 
     <EditText
-        android:id="@+id/descr_cat"
+        android:id="@+id/descr_prod"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:gravity="center"
         android:inputType="textPersonName"
-        android:hint="descripcion de la categoria" />
+        android:hint="descripcion del producto" />
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal">
-
-    <Button
-        android:id="@+id/delete"
-        android:layout_width="160dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="20dp"
-        android:paddingLeft="20dp"
-        android:text="borrar" />
-    <Button
-        android:id="@+id/update"
-        android:layout_width="160dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="20dp"
-        android:paddingLeft="20dp"
-        android:text="actualizar" />
-</LinearLayout>
+        android:orientation="horizontal">
 
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="borrar" />
+        <Button
+            android:id="@+id/update"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="actualizar" />
+    </LinearLayout>
 
 </LinearLayout>

@@ -51,14 +51,6 @@
         android:textColor="#DD7CFF0A"
         android:text="MOSTRAR" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="20dp"
-        android:paddingLeft="20dp"
-        android:textColor="#DD7CFF0A"
-        android:text="BORRAR" />
+
 
 </LinearLayout>
