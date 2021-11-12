@@ -13,6 +13,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Categorias de Productos"
+        android:textStyle="bold"
+        android:textColor="@color/black"
         android:textSize="28sp"
         android:layout_gravity="center"
         />
