@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "847297687766",
+    "project_id": "proyectofinaldaute-fdb9d",
+    "storage_bucket": "proyectofinaldaute-fdb9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847297687766:android:6e6baec751a97711199977",
+        "android_client_info": {
+          "package_name": "com.itca.proyectofinaldaute"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847297687766-j5mp82h8putqd6rvqfu214i09m3rremp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxC_DT6aaLdtFNkuwzYGoWBJ6XSQ01fg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847297687766-j5mp82h8putqd6rvqfu214i09m3rremp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
