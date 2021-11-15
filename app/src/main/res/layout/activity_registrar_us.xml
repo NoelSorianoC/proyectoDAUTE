@@ -55,16 +55,16 @@
             android:text="Registrar"
             android:backgroundTint="@color/black"/>
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/purple_500"
-            android:textColor="@color/white"
-            android:text="¿Ya tienes cuenta? Inicia Sesion" />
-
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_500"
+        android:text="¿Ya tienes cuenta? Inicia Sesion"
+        android:textColor="@color/white" />
 
 
 </LinearLayout>
