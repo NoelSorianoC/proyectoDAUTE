@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoFinalDAUTE">
         <activity
+            android:name=".registrar_us"
+            android:exported="false" />
+        <activity
             android:name=".mostrar_prod"
             android:exported="false" />
         <activity
