@@ -20,43 +20,53 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="175dp"
-        android:layout_height="110dp"
+        android:layout_width="185dp"
+        android:layout_height="150dp"
         android:layout_gravity="center"
-        android:layout_marginTop="-150dp"
-        android:src="@drawable/login" />
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/logo" />
 
     <TextView
         android:id="@+id/txt_Nom"
-        android:layout_width="224dp"
-        android:layout_height="42dp"
+        android:layout_width="234dp"
+        android:layout_height="72dp"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="40dp"
-        android:drawableLeft="@drawable/ic_nom"
-        android:text="Nombre de usuario"
+        android:text="Escuela Especializada en Ingenieria ITCA-FEPADE"
         android:textColor="@color/black"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-black"/>
 
 
-    <TextView
-        android:id="@+id/txt_Nombre"
-        android:layout_width="224dp"
-        android:layout_height="42dp"
-        android:layout_marginLeft="2dp"
-        android:layout_marginTop="40dp"
-        android:drawableLeft="@drawable/ic_nom"
-        android:text="Nombre de la persona"
-        android:textColor="@color/black"
-        android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txt_Nombre1"
+            android:layout_width="224dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="CARRERA:"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txt_Nombre"
+            android:layout_width="224dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Tec. Ingenieria en Sistemas Iformaticos"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
 
     <TextView
         android:id="@+id/txt_Em"
         android:layout_width="234dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="40dp"
-        android:drawableLeft="@drawable/ic_email"
-        android:text="Correo"
+        android:layout_height="22dp"
+        android:layout_marginTop="30dp"
+        android:text="FACILITADOR:"
         android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
         android:textSize="20dp" />
 
 
@@ -69,9 +79,8 @@
         android:textSize="20dp"
         android:layout_margin="20dp"
         android:textColor="@color/black"
-        android:text="Informacion de Usuario"
-        android:textStyle="bold"
-        android:fontFamily="sans-serif-black"/>
+        android:text="Manuel de Jesus Gamez Lopez"
+         />
 
     </LinearLayout>
 
