@@ -31,34 +31,34 @@
 
     <Button
         android:id="@+id/agg"
-        android:layout_width="350dp"
+        android:layout_width="338dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="20dp"
         android:paddingLeft="20dp"
-        android:textColor="#DD7CFF0A"
-        android:text="AGREGAR" />
+        android:text="AGREGAR"
+        android:textColor="#DDFFFFFF" />
 
 
     <Button
         android:id="@+id/editar"
-        android:layout_width="350dp"
+        android:layout_width="344dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="20dp"
         android:paddingLeft="20dp"
-        android:textColor="#DD7CFF0A"
-        android:text="EDITAR" />
+        android:text="EDITAR"
+        android:textColor="#DDF8F8F8" />
 
     <Button
         android:id="@+id/mostrar"
-        android:layout_width="350dp"
+        android:layout_width="341dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="20dp"
         android:paddingLeft="20dp"
-        android:textColor="#DD7CFF0A"
-        android:text="MOSTRAR" />
+        android:text="MOSTRAR"
+        android:textColor="#DDFDFDFC" />
 
 
 
