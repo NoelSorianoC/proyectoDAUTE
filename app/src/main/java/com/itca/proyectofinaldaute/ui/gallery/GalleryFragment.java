@@ -26,6 +26,8 @@ public class GalleryFragment extends Fragment {
     private GalleryViewModel galleryViewModel;
     private FragmentGalleryBinding binding;
     private Button agcat, editar,listar ;
+
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         galleryViewModel =
@@ -37,6 +39,7 @@ public class GalleryFragment extends Fragment {
         agcat = root.findViewById(R.id.agcat);
         editar = root.findViewById(R.id.editar);
         listar = root.findViewById(R.id.listar);
+
         agcat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
