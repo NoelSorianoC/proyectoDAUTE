@@ -36,7 +36,7 @@ private Button reg;
         reg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               // registro(); nombre del metodo
+                registro(); 
             }
         });
     }

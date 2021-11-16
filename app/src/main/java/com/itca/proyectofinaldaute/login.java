@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class login extends AppCompatActivity {
 
-    private Button btniniciar;
+    private Button btniniciar, btn_regist;
     private EditText et1, passwd;
     FirebaseAuth firebaseAuth;
     FirebaseAuth.AuthStateListener mAuthListener;
@@ -32,6 +32,7 @@ public class login extends AppCompatActivity {
         firebaseAuth = FirebaseAuth.getInstance();
 
         btniniciar=findViewById(R.id.btniniciar);
+        btn_regist=findViewById(R.id.btn_regist);
         et1 = findViewById(R.id.et1);
         passwd = findViewById(R.id.passwd);
 
@@ -42,6 +43,16 @@ public class login extends AppCompatActivity {
                 login();
             }
         });
+
+        btn_regist.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent home = new Intent(getApplicationContext(),registrar_us.class);
+                startActivity(home);
+
+            }
+        });
+
     }
 
     public void login(){
