@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -38,6 +39,11 @@ public class aggcategoria extends AppCompatActivity {
         nombre = findViewById(R.id.nom_cat);
         estado= findViewById(R.id.stado_c);
         guardar = findViewById(R.id.guardarcat);
+
+
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getApplicationContext(), R.array.estadocategoria, R.layout.support_simple_spinner_dropdown_item);
+        adapter.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
+        estado.setAdapter(adapter);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
